@@ -1,0 +1,99 @@
+﻿/*==Reset CSS==*/
+* {
+    margin: 0;
+    padding: 0;
+}
+a:hover{
+    text-decoration:none;
+}
+/*==Style cơ bản cho website==*/
+body {
+    font-family: sans-serif;
+    color: #333;
+    padding-top: 0px;
+    padding-bottom:0px;
+}
+.row {
+    margin-left:0px;
+    margin-right:0px;
+}
+/*==Style cho menu===*/
+.menu-conten {
+    background: #0288D1;
+    list-style-type: none;
+    height:50px;
+}
+#menu {
+   padding-left:10%;
+   padding-right:10%;
+   height:50px;
+}
+#menu > .me {
+    color: #fff;
+    display: inline-block;
+    height: 100%;
+    line-height: 40px;
+    margin-left: -5px;
+    text-align:center;
+}
+
+    #menu .ti-me {
+        text-decoration: none;
+        color: #fff;
+        display: block;
+    }
+
+#menu a:hover {
+    background: #0480c3;
+    color: #333;
+    display: block;
+}
+.sub-menu > .me {
+    display: block;
+}
+#menu > .me {
+    position: relative;
+}
+.me {
+    display:block;
+}
+.rig {
+    float:right;
+    width:130px;
+}
+.me > a{
+    height:50px;
+    padding-top:5px;
+    font-size: 15px;
+}
+.sub-menu {
+    display: none;
+    position: absolute;
+}
+#menu .me:hover .sub-menu {
+    display: block;
+}
+.sub-menu > .me {
+    margin-left: 0 !important;
+}
+.tb-me {
+    background-color: white;
+    width: 850%;
+    display: block;
+}
+.title-ty {
+    color: black;
+    padding-left: 10px;
+    padding-top: 10px;
+    width: 200px;
+}
+.type {
+   padding-left:10px;
+   color: black;
+}
+.type > a:hover {
+    color: white;
+}
+.footer-content {
+    padding-left:10%;
+}
